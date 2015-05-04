@@ -24,6 +24,7 @@ body {
    Only uncommented stuff is modified from default 248 67 67*/  
 
 .navbar-brand {
+  padding: 15px 15px;
   max-height: 40px;
 }
 .navbar-inverse {
