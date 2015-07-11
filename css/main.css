@@ -4,7 +4,7 @@ footer .container { padding: 0px 15px; }
 
 .container { padding: 50px 15px; }
   /* Custom BG Colors */
-  .phoenix { background-color: #333; padding-top: 50px; }
+  .phoenix { background-color: #333; padding-top: 70px; }
   .phoenix .btn { margin-top: 20px; color: #FFF; border: 2px solid #FFF; font-weight: bold; text-transform: uppercase; padding: 10px 30px; border-radius: 100px; transition: all 0.2s ease; }
   .phoenix .btn:hover { background: #FFF; color: #333; border-radius: 100px; }
   .phoenix .btn:focus { background: #C74A29; color: #FFF; border-color: #C74A29; }
@@ -15,32 +15,32 @@ a { color: #C74A29; text-decoration: none; }
 a:hover, a:focus { color: #C74A29; text-decoration: underline; }
 
 /* Custom navbar (darkly based) */  
+.navbar { background: transparent; }
+
 nav { transition: all 0.2s linear; }
 nav img { float: left; transition: all 0.2s linear; }
 nav a { transition: all 0.2s linear; }
 nav .container { padding: 0px; }
-.navbar { background: transparent; }
 nav a.navbar-brand { padding-top: 25px !important; }
 nav a { padding-top: 40px !important; padding-bottom: 20px !important; font-weight: bold; font-size: 14px; text-transform: uppercase; }
 nav a:hover { color: #C74A29 !important; }
 
-nav .navbar-toggle { margin: 35px 15px 30px 0; background: transparent; border: 0; }
-nav .navbar-toggle:hover { background: rgba(0,0,0,.70) !important; }
-nav .navbar-toggle:focus { background: #C74A29 !important; }
+nav .navbar-toggle { margin: 30px 30px 30px 0; background: transparent; border: 1px solid #FFF !important; }
+nav .navbar-toggle:hover { background: rgba(255,255,255,.3) !important; }
+nav .navbar-toggle:focus { background: #C74A29 !important; border-color: #C74A29 !important; }
 
 nav.shrink { padding-top: 20px; box-shadow: inset 0px 70px 40px -30px rgba(0,0,0,0.85); }
 nav.shrink a { padding-top: 13px !important; padding-bottom: 10px !important; font-size: 12px; }
 nav.shrink a.navbar-brand { padding-top: 10px !important; }
-nav.shrink img { height: 30px; }
-nav.shrink .navbar-toggle { margin: 11px 15px 10px 0px; }
+nav.shrink img { height: 40px; }
+nav.shrink .navbar-toggle { margin: 11px 30px 10px 0px; }
 
 @media (max-width: 767px) {
-    nav img { height: 45px; }
     .navbar-collapse { background: rgba(0,0,0,.70); border-top: 0px; }
-    .navbar-collapse a { padding: 20px 10px !important; }
-    nav.shrink .navbar-brand { margin-left: 10px; }
+    .navbar-collapse a { padding: 20px 30px !important; }
+    nav img { height: 45px; }
+    nav .navbar-brand { margin-left: 10px; }
     nav.shrink { box-shadow: inset 0px 75px 30px -20px rgba(0,0,0,0.75); }
-    
 }
 
 /*
