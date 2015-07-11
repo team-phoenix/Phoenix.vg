@@ -4,12 +4,15 @@ footer .container { padding: 0px 15px; }
 
 .container { padding: 50px 15px; }
   /* Custom BG Colors */
-  .bg-main { background-color: #333; }
+  .phoenix { background-color: #333; padding-top: 50px; }
+  .phoenix .btn { margin-top: 20px; color: #FFF; border: 2px solid #FFF; font-weight: bold; text-transform: uppercase; padding: 10px 30px; border-radius: 100px; transition: all 0.2s ease; }
+  .phoenix .btn:hover { background: #FFF; color: #333; border-radius: 100px; }
+  .phoenix .btn:focus { background: #C74A29; color: #FFF; border-color: #C74A29; }
   .devs-wanted { background-color: rgba(0,0,0,.1); }
 
 /* Links */
-a { color: #B03030; text-decoration: none; }
-a:hover, a:focus { color: #B03030; text-decoration: underline; }
+a { color: #C74A29; text-decoration: none; }
+a:hover, a:focus { color: #C74A29; text-decoration: underline; }
 
 /* Custom navbar (darkly based) */  
 nav { transition: all 0.2s linear; }
@@ -19,11 +22,11 @@ nav .container { padding: 0px; }
 .navbar { background: transparent; }
 nav a.navbar-brand { padding-top: 25px !important; }
 nav a { padding-top: 40px !important; padding-bottom: 20px !important; font-weight: bold; font-size: 14px; text-transform: uppercase; }
-nav a:hover { color: #D06032 !important; }
+nav a:hover { color: #C74A29 !important; }
 
 nav .navbar-toggle { margin: 35px 15px 30px 0; background: transparent; border: 0; }
 nav .navbar-toggle:hover { background: rgba(0,0,0,.70) !important; }
-nav .navbar-toggle:focus { background: #C44126 !important; }
+nav .navbar-toggle:focus { background: #C74A29 !important; }
 
 nav.shrink { padding-top: 20px; box-shadow: inset 0px 70px 40px -30px rgba(0,0,0,0.85); }
 nav.shrink a { padding-top: 13px !important; padding-bottom: 10px !important; font-size: 12px; }
