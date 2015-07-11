@@ -1,36 +1,34 @@
-
-.embed-responsive-phoenix {
-    display: inline;
-    padding-bottom: 60%;
-}
-
-a {
-  color: #f84343;
-  text-decoration: none;
-}
-a:hover,
-a:focus {
-  color: #f84343;
-  text-decoration: underline;
-}
+.embed-responsive-phoenix { display: inline; padding-bottom: 60%; }
+a { color: #B03030; text-decoration: none; }
+a:hover, a:focus { color: #B03030; text-decoration: underline; }
 
 /* Move down content because we have a fixed navbar that is 50px tall */
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
+body { padding-top: 50px; padding-bottom: 20px; }
 
 /* Custom navbar (darkly based)
    Only uncommented stuff is modified from default 248 67 67*/  
+nav { transition: all 0.4s ease; }
+nav img { transition: all 0.4s ease; }
+nav a { transition: all 0.2s linear; }
 
-.navbar-brand {
-  padding: 15px 15px;
-  max-height: 40px;
+.navbar { background: transparent; }
+nav a.navbar-brand { padding-top: 25px !important; }
+nav a { padding-top: 40px !important; padding-bottom: 20px !important; font-weight: bold; font-size: 14px; text-transform: uppercase; }
+nav a:hover { color: #B03030 !important; }
+
+nav .navbar-toggle { margin: 35px 15px 0 0; background: transparent; border: 0; }
+nav .navbar-toggle:hover { background: #000; }
+
+nav.shrink { padding-top: 20px; box-shadow: inset 0px 70px 40px -30px rgba(0,0,0,0.75); }
+nav.shrink a { padding-top: 13px !important; padding-bottom: 10px !important; font-size: 12px; }
+nav.shrink a.navbar-brand { padding-top: 10px !important; }
+nav.shrink img { height: 30px; }
+nav.shrink .navbar-toggle { padding: 4px 5px; margin: 15px 15px 8px 0; }
+
+@media (max-width: 767px) {
+    nav.shrink .navbar-brand { margin-left: 10px; }
 }
-.navbar-inverse {
-  background-color: #f84343;
-  border-color: transparent;
-}
+
 /*
 .navbar-inverse .navbar-brand {
   color: #ffffff;
