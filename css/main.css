@@ -1,14 +1,16 @@
-.embed-responsive-phoenix { display: inline; padding-bottom: 60%; }
+/* Phoenix CSS */
+footer { background-color: #191919; margin-top: 20px; padding: 20px 0px; }
+
+  /* Custom BG Colors */
+  .bg-main { background-color: #333; }
+
+/* Links */
 a { color: #B03030; text-decoration: none; }
 a:hover, a:focus { color: #B03030; text-decoration: underline; }
 
-/* Move down content because we have a fixed navbar that is 50px tall */
-body { padding-top: 50px; padding-bottom: 20px; }
-
-/* Custom navbar (darkly based)
-   Only uncommented stuff is modified from default 248 67 67*/  
-nav { transition: all 0.4s ease; }
-nav img { transition: all 0.4s ease; }
+/* Custom navbar (darkly based) */  
+nav { transition: all 0.2s linear; }
+nav img { float: left; transition: all 0.2s linear; }
 nav a { transition: all 0.2s linear; }
 
 .navbar { background: transparent; }

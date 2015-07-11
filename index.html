@@ -21,7 +21,9 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        
+        <script src="js/main.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
         <script>
             $(window).scroll(function() {
@@ -42,10 +44,8 @@
                 <span class="icon-bar"></span>
               </button>
               <a class="navbar-brand" href="http://phoenix.vg">
-                <div class="row">
-                  <img src="img/icon.png" height="50px"/>
-                  <img src="img/logo.png" height="50px"/>
-                </div>
+                <img src="img/icon.png" height="50px"/>
+                <img src="img/logo.png" height="50px"/>
               </a>
             </div>
             <div class="collapse navbar-collapse">
@@ -58,26 +58,35 @@
           </div>
         </nav>  
         
-        <div class="container"><br><br>
-          <div align="center" class="js-video embed-responsive embed-responsive-16by9">
-            <video autoplay loop class="embed-responsive-item">
-              <source src="img/phoenix-screenshot.mp4" type="video/mp4">
-            </video>
-          </div><br><br>
-        </div> <!-- /container -->
+        <div class="container-fluid bg-main"><br><br><br><br>
+          <div class="row">
+              <div class="col-md-6 col-md-offset-3 text-center">
+                <h1>On the road to Phoenix<sup>alpha</sup></h1>
+                <p>Wanna try it out? The only way to try Phoenix out right now is to <a href="https://github.com/team-phoenix/Phoenix">build from the source.</a> Guides are available on getting your <a href="https://github.com/team-phoenix/Phoenix/wiki/Build-Environment">build environment set up</a> and <a href="https://github.com/team-phoenix/Phoenix/wiki/Building">compiling Phoenix.</a> Any problems? Contact us by checking the <a href="#devs-wanted">Developers wanted</a> section below.</p>
+                <p><a class="btn btn-default" href="https://github.com/team-phoenix/Phoenix" role="button">Get the source &raquo;</a></p>
+              </div>            
+          </div> 
+          <br>
+          <div class="container">
+              <div align="center" class="js-video embed-responsive embed-responsive-16by9">
+                <video autoplay loop class="embed-responsive-item">
+                  <source src="img/phoenix-screenshot.mp4" type="video/mp4">
+                </video>
+              </div><br><br>
+          </div> 
+        </div> <!-- MAIN CONTAINER -->
         
-        <!-- Main jumbotron -->
+        <!-- Main jumbotron
         <div class="jumbotron">
           <div class="container">
             <h1>On the road to Phoenix<sup>alpha</sup></h1>
             <p>Wanna try it out? The only way to try Phoenix out right now is to <a href="https://github.com/team-phoenix/Phoenix">build from the source.</a> Guides are available on getting your <a href="https://github.com/team-phoenix/Phoenix/wiki/Build-Environment">build environment set up</a> and <a href="https://github.com/team-phoenix/Phoenix/wiki/Building">compiling Phoenix.</a> Any problems? Contact us by checking the <a href="#devs-wanted">Developers wanted</a> section below.</p>
             <p><a class="btn btn-default btn-lg" href="https://github.com/team-phoenix/Phoenix" role="button">Get the source &raquo;</a></p>
           </div>
-        </div>
+        </div>  -->
 
         <div class="container center-block">
           <div class="row">
-
             <div class="col-md-4">
               <h2>What is Phoenix?</h2>
               <p>Phoenix is a super-slick <a href="http://libretro.com/">Libretro</a> frontend powered by <a href="http://www.qt.io/">Qt 5</a>, and is available on Windows, OS X and Linux. Dead-simple to use, Phoenix features both a powerful library system to organize your classic game collection, along with a set of up-to-date emulators to play them right within the app!</p>
@@ -97,7 +106,7 @@
           <div class="row">
           -->
             <div class="col-md-4">
-              <h2>High-performance frontend</h2>
+              <h2>High-performance</h2>
               <p>We've extensively studied techniques used by other frontends (along with our own work) to get the absolute best possible emulation performance and accuracy. The end result is a smooth, low-latency experience even a speedrunner will love.</p>
               <p><a class="btn btn-default disabled" href="#" role="button" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Coming soon!">Coming soon...</a></p>
              </div>
@@ -117,18 +126,21 @@
               <p>Please contact us via <a href="https://webchat.freenode.net/?channels=phoenix-dev">IRC at #phoenix-dev on Freenode</a> or contact athairus via email (he's on gmail under that name!)</p>
             </div>
           </div>
+        </div>
+        
+        <footer>
+            <div class="container">
+              <div class="media-left media-middle">
+                <a href="#">
+                  <img class="media-object" src="img/icon-w.png" height="20px" alt="Phoenix"/>
+                </a>
+              </div>
+              <div class="media-body">
+                &copy; 2015 Phoenix Team
+              </div>
+            </div>
+        </footer>
 
-          <hr>
-
-          <footer>
-            <p>&copy; 2015 Phoenix Team</p>
-          </footer>
-
-        </div> <!-- /container -->    
-
-        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        <script src="js/main.js"></script>
 
         <!-- Google Analytics. TODO: change UA-XXXXX-X to Phoenix's GA ID. -->
         <script>
