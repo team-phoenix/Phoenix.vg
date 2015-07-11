@@ -9,7 +9,9 @@ footer .container { padding: 0px 15px; }
   .phoenix .btn:hover { background: #FFF; color: #333; border-radius: 100px; }
   .phoenix .btn:focus { background: #C74A29; color: #FFF; border-color: #C74A29; }
   .devs-wanted { background-color: rgba(0,0,0,.1); }
-
+  .shareus { background-color: #C74A29; }
+  .shareus .container { padding: 15px 0px 0px;  }
+  .shareus .container i { font-size: 32px; color: #FFF; margin-right: 20px;  }
 /* Links */
 a { color: #C74A29; text-decoration: none; }
 a:hover, a:focus { color: #C74A29; text-decoration: underline; }
