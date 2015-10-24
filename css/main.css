@@ -1,30 +1,36 @@
 /* Phoenix CSS */
 .container { padding: 50px 15px; }
 
-footer { background-color: #191919; padding: 20px 0px; }
-footer .container { padding: 0px 15px; }
-
   /* Custom Sections */
-  .phoenix { background: #5c0f12 url(../img/bg-main.png) center no-repeat; padding-top: 120px; }
-  .phoenix a { text-shadow: 0px 0px 5px 2px rgba(0,0,0,.65); }
+  .phoenix { background: #A32127 url(../img/bg-main.png) center no-repeat; padding-top: 120px; }
+  .phoenix a { background: rgba(255,255,255,.85); font-weight: bold; border-radius: 1px; padding: 0px 5px 1px; }
+  .phoenix a:hover { background: rgba(255,255,255,1); text-decoration: none; }
   .phoenix .phoenix-alpha { margin: 60px auto; box-shadow: 0px 0px 30px 0px rgba(150,20,25,.55); transition: 0.3s linear; }
   .phoenix .phoenix-alpha:hover { box-shadow: 0px 0px 50px 10px rgba(200, 25, 25,.75), 0px 0px 0px 1px rgba(255,255,255,.2); }
-  .phoenix .btn { margin-top: 20px; color: #FFF; border: 2px solid #FFF; font-weight: 900; text-transform: uppercase; padding: 10px 30px; border-radius: 100px; transition: all 0.2s ease; text-shadow: 0px 0px 0px 0px; }
-  .phoenix .btn:hover { background: #FFF; color: #333; border-radius: 100px; }
-  .phoenix .btn:focus { background: #C74A29; color: #FFF; border-color: #C74A29; }
+  .phoenix .btn { background: none !important; margin-top: 20px; color: #FFF; border: 2px solid #FFF; font-weight: 900; text-transform: uppercase; padding: 10px 30px; border-radius: 100px; transition: all 0.2s ease; text-shadow: 0px 0px 0px 0px; }
+  .phoenix .btn:hover { background: #FFF !important; color: #333; border-radius: 100px; }
+  .phoenix .btn:focus { background: #A32127 !important; color: #FFF; border-color: #A32127; }
 
+  .phoenix-features { background-color: #1E2024; }
   .phoenix-features h2 { color: #E2E2E2; font-family: 'Roboto', sans-serif; font-weight: 900; font-size: 20px; }
 
-  .devs-wanted { background-color: #1F1F1F; }
+  .devs-wanted { background-color: #1A1B1F; }
 
-  .shareus { background-color: #861919; }
-  .shareus .container { padding: 15px 0px 0px;  }
-  .shareus .container i { font-size: 32px; color: #FFF; margin-right: 20px; transition: all 0.2s linear; }
-  .shareus .container i:hover { text-shadow: 0px 0px 5px rgba(0,0,0,.5); }
+  .shareus { text-align: right; }
+  .shareus i { font-size: 24px; color: #FFF; margin-left: 20px; transition: all 0.2s linear; }
+  .shareus i:hover { text-shadow: 0px 0px 5px rgba(0,0,0,.5); }
+
+  footer { background-color: #141619; }
+  footer .container { padding: 20px 15px; }
+  footer .container:after { content:''; display:block; clear: both; }
 
 /* Links */
-a { color: #C74A29; text-decoration: none; }
-a:hover, a:focus { color: #C74A29; text-decoration: underline; }
+a { color: #A32127; text-decoration: none; }
+a:hover, a:focus { color: #A32127; text-decoration: underline; }
+.btn { background-color: #A32127 !important; border: none; }
+.btn:hover { background-color: #BF272E !important; }
+.btn:active { background-color: #8F1E24 !important; }
+
 
 /* Custom navbar (darkly based) */  
 .navbar { background: transparent; }
@@ -35,24 +41,24 @@ nav a { transition: all 0.2s linear; }
 nav .container { padding: 0px; }
 nav a.navbar-brand { padding-top: 25px !important; }
 nav a { padding-top: 40px !important; padding-bottom: 20px !important; font-weight: bold; font-size: 14px; text-transform: uppercase; }
-nav a:hover { color: #C74A29 !important; }
+nav a:hover { color: #A32127 !important; }
 
 nav .navbar-toggle { margin: 30px 30px 30px 0; background: transparent; border: 1px solid #FFF !important; }
 nav .navbar-toggle:hover { background: rgba(255,255,255,.3) !important; }
-nav .navbar-toggle:focus { background: #C74A29 !important; border-color: #C74A29 !important; }
+nav .navbar-toggle:focus { background: #A32127 !important; border-color: #A32127 !important; }
 
-nav.shrink { padding-top: 20px; box-shadow: inset 0px 70px 40px -30px rgba(0,0,0,0.85); }
-nav.shrink a { padding-top: 13px !important; padding-bottom: 10px !important; font-size: 12px; }
+nav.shrink { background: rgba(0,0,0,.70); }
+nav.shrink a { padding-top: 18px !important; padding-bottom: 10px !important; font-size: 12px; }
 nav.shrink a.navbar-brand { padding-top: 10px !important; }
 nav.shrink img { height: 40px; }
 nav.shrink .navbar-toggle { margin: 11px 30px 10px 0px; }
 
 @media (max-width: 767px) {
-    .navbar-collapse { background: rgba(0,0,0,.70); border-top: 0px; }
+    .navbar-collapse { background: rgba(0,0,0,.10); border-top: 0px; }
     .navbar-collapse a { padding: 20px 30px !important; }
     nav img { height: 45px; }
     nav .navbar-brand { margin-left: 10px; }
-    nav.shrink { box-shadow: inset 0px 75px 30px -20px rgba(0,0,0,0.75); }
+    nav.shrink { }
 }
 
 /*
