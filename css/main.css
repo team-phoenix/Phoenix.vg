@@ -49,13 +49,13 @@ nav .navbar-toggle { margin: 30px 30px 30px 0; background: transparent; border: 
 nav .navbar-toggle:hover { background: rgba(255,255,255,.3) !important; }
 nav .navbar-toggle:focus { background: #A32127 !important; border-color: #A32127 !important; }
 
-nav.shrink { background: rgba(0,0,0,.70); }
 nav.shrink a { padding-top: 18px !important; padding-bottom: 10px !important; font-size: 12px; }
 nav.shrink a.navbar-brand { padding-top: 10px !important; }
 nav.shrink img { height: 40px; }
 nav.shrink .navbar-toggle { margin: 11px 30px 10px 0px; }
 
 @media (max-width: 767px) {
+    nav { background: rgba(0,0,0,.7) !important; }
     .navbar-collapse { background: rgba(0,0,0,.10); border-top: 0px; }
     .navbar-collapse a { padding: 20px 30px !important; }
     nav img { height: 45px; }
