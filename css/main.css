@@ -6,7 +6,8 @@
   .phoenix h1 { color: #FFF; }
   /* .phoenix a { background: rgba(255,255,255,.85); font-weight: bold; border-radius: 1px; padding: 0px 5px 1px; }
   .phoenix a:hover { background: rgba(255,255,255,1); text-decoration: none; } */
-  .phoenix .phoenix-alpha { margin: 60px auto; box-shadow: 0px 0px 30px 0px rgba(150,20,25,.55); transition: 0.3s linear; }
+  .phoenix .phoenix-alpha { margin: 50px auto; max-width: 1050px; box-shadow: 0px 0px 30px 0px rgba(150,20,25,.55); transition: 0.3s linear; }
+  .phoenix .phoenix-alpha video { width: 100%; }
   .phoenix .phoenix-alpha:hover { box-shadow: 0px 0px 50px 10px rgba(200, 25, 25,.75), 0px 0px 0px 1px rgba(255,255,255,.2); }
   .phoenix .btn { background: none !important; margin-top: 20px; color: #FFF; border: 2px solid #FFF; font-weight: 900; text-transform: uppercase; padding: 10px 30px; border-radius: 100px; transition: all 0.2s ease; text-shadow: 0px 0px 0px 0px; }
   .phoenix .btn:hover { background: #FFF !important; color: #333; border-radius: 100px; }
