@@ -46,46 +46,48 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
               </ul>
-            </div><!--/.nav-collapse -->
+            </div>
           </div>
         </nav>  
         
         <div class="container-fluid phoenix">
           <div class="row">
               <div class="col-md-6 col-md-offset-3 text-center">
-                <h1>On the road to Phoenix<sup>alpha</sup></h1>
-                <p>Wanna try it out? The only way to try Phoenix out right now is to <a href="https://github.com/team-phoenix/Phoenix">build from the source.</a><br />
-                   Guides are available on getting your <a href="https://github.com/team-phoenix/Phoenix/wiki/Build-Environment">build environment set up</a> and <a href="https://github.com/team-phoenix/Phoenix/wiki/Building">compiling Phoenix.</a><br />
-                   Any problems? Contact us by checking the <a href="#devs-wanted">Developers wanted</a> section below.</p>
-                <p><a class="btn" href="https://github.com/team-phoenix/Phoenix" role="button">Get the source</a></p>
+                <h1>Phoenix pre-alpha is here!</h1>
+                <p>We're proud to announce our project is finally ready for pre-alpha testing!<br /> 
+                   Developers: Check out the <a href="#devs-wanted">Developers wanted</a> section below!<br />
+                   Everyone else: Grab your copy now!
+                </p>
+                <p>
+                  <a class="btn" href="https://github.com/team-phoenix/Phoenix/releases" role="button">Download</a>
+                </p>
               </div>            
           </div> 
-         <div align="center" class="phoenix-alpha">
-                <video class="embed-responsive-item" autoplay loop>
-                    <source src="http://raw.githubusercontent.com/team-phoenix/Designs/gh-pages/Screenshots/screen.mp4" type="video/mp4">
-                    <img src="http://raw.githubusercontent.com/team-phoenix/Designs/gh-pages/Screenshots/screen.png">
-                </video><br>
-          </div> 
+
+          <div align="center">
+            <div class="gfyitem" data-expand=false data-id="DisloyalPalatableKookaburra" ></div> 
+          </div>
+          <script type"text/javascript" src="https://assets.gfycat.com/gfycat.js"></script>
+          <script>
+            if( document.addEventListener )
+              document.addEventListener( "DOMContentLoaded", gfyCollection.init, false );
+            else
+              document.attachEvent( "onreadystatechange", gfyCollection.init );
+          </script>
+
         </div><!-- MAIN CONTAINER -->
         
-        <!-- Main jumbotron
-        <div class="jumbotron">
-          <div class="container">
-            <h1>On the road to Phoenix<sup>alpha</sup></h1>
-            <p>Wanna try it out? The only way to try Phoenix out right now is to <a href="https://github.com/team-phoenix/Phoenix">build from the source.</a> Guides are available on getting your <a href="https://github.com/team-phoenix/Phoenix/wiki/Build-Environment">build environment set up</a> and <a href="https://github.com/team-phoenix/Phoenix/wiki/Building">compiling Phoenix.</a> Any problems? Contact us by checking the <a href="#devs-wanted">Developers wanted</a> section below.</p>
-            <p><a class="btn btn-default btn-lg" href="https://github.com/team-phoenix/Phoenix" role="button">Get the source &raquo;</a></p>
-          </div>
-        </div>  -->
-
         <div id="about" class="phoenix-features">
             <div class="container">
               <div class="row">
                 <div class="col-md-4">
                   <!-- <img src="img/phoenix-150.png" height="75px"> -->
                   <h2>What is Phoenix?</h2>
-                  <p>Phoenix is a super-slick <a href="http://libretro.com/">Libretro</a> frontend powered by <a href="http://www.qt.io/">Qt 5</a>, and is available on Windows, OS X and Linux. Dead-simple to use, Phoenix features both a powerful library system to organize your classic game collection, along with a set of up-to-date emulators to play them right within the app!</p>
+                  <p>
+                    Phoenix is a multi-system emulator and library manager designed to be both powerful and easy to use. Powered by <a href="http://www.qt.io/">Qt 5</a> and <a href="http://libretro.com/">Libretro</a>, it is available on Windows, OS X and Linux. Free now and forever under GPL v2.
+                  </p>
                   <p>We've designed Phoenix with the hope that it'll be perfect for everyone, whether you're someone who hardly plays videogames, a hardcore gamer, a speedrunner, or even a homebrew programmer!</p>
-                  <p><a class="btn btn-default" href="https://github.com/team-phoenix/Phoenix" role="button">Get the source &raquo;</a></p>
+                  <p><a class="btn btn-default" href="https://github.com/team-phoenix/Phoenix/releases" role="button">Download &raquo;</a></p>
                 </div>
 
                 <div class="col-md-4">
@@ -140,8 +142,8 @@
                     </div>
                     <div class="col-md-6">
                         <div class="shareus">
-                            <a href="#" target="_blank"><i class="fa fa-facebook-official"></i></a>
-                            <a href="https://twitter.com/PhoenixEmu" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <!-- <a href="#" target="_blank"><i class="fa fa-facebook-official"></i></a> -->
+                            <a href="https://twitter.com/TeamPhoenixEmu" target="_blank"><i class="fa fa-twitter"></i></a>
                             <a href="https://github.com/team-phoenix" target="_blank"><i class="fa fa-github"></i></a>
                         </div>
                     </div>
@@ -159,14 +161,15 @@
             });
         </script>
 
-        <!-- Google Analytics. TODO: change UA-XXXXX-X to Phoenix's GA ID. -->
+        <!-- Google Analytics. -->
         <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='http://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-79007444-1', 'auto');
+          ga('send', 'pageview');
         </script>
 
     </body>
